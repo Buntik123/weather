@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+   padding: 0;
+   background-color: lightblue;
+}
+.body{
+    background-color: black;
+    display: flex;
+
+}
+.weather{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    justify-content: center;
+    gap: 70px;
+    
+}
+.name{
+    font-family: "Calibri";
+    font-size: 100px;
+    font-weight: 700;
+    font-style: bold;
+    
+
+}
+.today-temp{
+    font-family: "Calibri";
+    font-size: 40px;
+    font-weight: 500;
+}
+.enter-space{
+   margin-top: 25px;
+   justify-content: center;
+
+
+}
+.city-name{
+    font-size: 40px;
+    font-family: "Calibri";
+    border-radius: 15px;
+    padding: 6px;
+}
+.get-weather-button{
+    font-size: 40px;
+    font-family: "Calibri";
+    font-style: bold;
+    font-weight: 700;
+    border-radius: 15px;
+    padding: 6px;
+
+}
